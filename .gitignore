@@ -110,3 +110,7 @@ secrets.json
 
 zigbee2mqtt/rootfs
 zigbee2mqtt-edge/rootfs
+/.idea/hassio-z2m43.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
