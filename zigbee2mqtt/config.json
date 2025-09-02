@@ -1,14 +1,14 @@
 {
-  "name": "Zigbee2MQTT",
+  "name": "Z2M43 Fork",
   "version": "2.6.1-1",
-  "slug": "zigbee2mqtt",
-  "description": "Use your ZigBee devices without the vendor's bridge or gateway",
+  "slug": "z2m43",
+  "description": "Z2M43 Fork",
   "breaking_versions": [
     "2.0.0-1"
   ],
   "uart": true,
   "udev": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
+  "url": "https://github.com/demushkin/hassio-z2m43/tree/master/zigbee2mqtt",
   "startup": "application",
   "services": [
     "mqtt:need"
@@ -43,7 +43,7 @@
     }
   ],
   "ports": {
-    "8485/tcp": 8485,
+    "8485/tcp": 8486,
     "8099/tcp": null
   },
   "ports_description": {
